@@ -6,7 +6,7 @@ for(let game of games) {
   // add image and title from images folder and the "game" variable
   g.innerHTML =
   `
-  <button onclick="window.location.replace('/games/${game}')">
+  <button onClick="window.location.replace('https://og-games.vercel.app/games/${game}')">
   ${game}<br/>
   <img width="100" height="150" src="/images/${game}.png"/>
   </button>`;
